@@ -18,12 +18,10 @@ The `Startup Companies One-Line Pitches 2025` dataset will be utilized as our ex
 
 ## ⚡ Key Concepts
 
-- **Foundation Model:** Pretrained LLM with general knowledge and reasoning ability
-
-- **LLM (Large Language Model):** AI trained on massive text data to understand & generate human-like language
-
-- **Fine-Tuned Model:** LLM adapted to a specific dataset/task for specialized outputs
-
+- **Foundation Model:** Pretrained LLM with general knowledge and reasoning ability. Here, **unsloth/gpt-oss-20b**
+- **LLM (Large Language Model):** AI trained on massive text data to understand & generate human-like language. 
+- **LoRA Adapters:** Parameter-efficient adapters that learn the new task while the foundation model parameters stay frozen.
+- **Fine-Tuned Model:** LLM adapted to a specific dataset/task for specialized outputs. 
 - **Quantization:** Reducing model precision (e.g., float32 → INT4) to lower memory usage & enable lightweight inference
 
 ## 🎯 Model Load and LoRA Adpater Setup (
