@@ -24,9 +24,9 @@ The `Startup Companies One-Line Pitches 2025` dataset will be utilized as our ex
 - **Fine-Tuned Model:** LLM adapted to a specific dataset/task for specialized outputs. 
 - **Quantization:** Reducing model precision (e.g., float32 → INT4) to lower memory usage & enable lightweight inference
 
-## 🎯 Model Load and LoRA Adpater Setup (
+## 🎯 Model Load and LoRA Adpater Setup 
 
-- Addition Layer to capture new context without disturbing the weight of Pretrained LLM -> Frozeen Weight)
+- Addition Layer to capture new context without disturbing the weight of Pretrained LLM -> Frozeen Weight
 - Load a 20B GPT-OSS model from UnsloTh notebook template and long-context support (max_seq_length=1024), optionally enabling full fine-tuning. Pre-quantized models are faster to download and avoid GPU OOMs (Out Of Memory).
 
 - `load_in_4bit=True` → reduces memory footprint by converting model weights from full-precision floats to 4-bit integers, so large models can fit on GPU without OOM.
